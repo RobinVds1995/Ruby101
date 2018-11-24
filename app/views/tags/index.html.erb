@@ -1,0 +1,4 @@
+<h1> All Tags </h1>
+<% @tags.each do |t| %>
+<p><%= link_to "<#{t.name}>",t %></p>
+<%end%>
